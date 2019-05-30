@@ -40,7 +40,6 @@
                                 <constraints>
                                     <constraint firstItem="nde-nR-43h" firstAttribute="top" secondItem="i7T-aS-PU5" secondAttribute="top" constant="100" id="4Rb-ha-d5U"/>
                                     <constraint firstItem="nde-nR-43h" firstAttribute="leading" secondItem="i7T-aS-PU5" secondAttribute="leading" constant="20" id="Sdo-yc-2or"/>
-                                    <constraint firstItem="nde-nR-43h" firstAttribute="centerX" secondItem="i7T-aS-PU5" secondAttribute="centerX" id="oKA-Ei-nId"/>
                                     <constraint firstAttribute="trailing" secondItem="nde-nR-43h" secondAttribute="trailing" constant="20" id="yJ5-oF-HJb"/>
                                 </constraints>
                             </view>
@@ -155,6 +154,7 @@
                                             <constraint firstItem="UHf-Ti-I8x" firstAttribute="leading" secondItem="KeO-gk-Z5e" secondAttribute="leading" id="6kA-nQ-pu1"/>
                                             <constraint firstItem="UHf-Ti-I8x" firstAttribute="top" secondItem="9Lc-UG-M6U" secondAttribute="bottom" constant="20" id="BgT-7b-ymD"/>
                                             <constraint firstItem="1t2-u9-ff8" firstAttribute="top" secondItem="eNH-5x-DNn" secondAttribute="bottom" constant="20" id="Fy4-4Y-H94"/>
+                                            <constraint firstItem="Kfs-HX-mxM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KeO-gk-Z5e" secondAttribute="leading" constant="12" id="Gri-nM-8An"/>
                                             <constraint firstAttribute="trailing" secondItem="1t2-u9-ff8" secondAttribute="trailing" constant="20" id="Hj6-Ku-uXE"/>
                                             <constraint firstAttribute="trailing" secondItem="eNH-5x-DNn" secondAttribute="trailing" id="Mbm-En-qkr"/>
                                             <constraint firstAttribute="trailing" secondItem="9Lc-UG-M6U" secondAttribute="trailing" constant="20" id="VrF-xe-jeL"/>
