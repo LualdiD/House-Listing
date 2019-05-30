@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C917FFC8726E5D11C67DE1 /* Pods_Nestoria_House_Listing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A535988AA999CA569476E084 /* Pods_Nestoria_House_Listing.framework */; };
+		A4633560229F42C3008F0DD9 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463355F229F42C3008F0DD9 /* ApiHelper.swift */; };
+		A4633562229F6CCC008F0DD9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4633561229F6CCC008F0DD9 /* Constant.swift */; };
+		A4633564229F735F008F0DD9 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4633563229F735F008F0DD9 /* AppColor.swift */; };
+		A4633567229F78A8008F0DD9 /* HouseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4633565229F78A8008F0DD9 /* HouseTableViewCell.swift */; };
+		A4633568229F78A8008F0DD9 /* HouseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4633566229F78A8008F0DD9 /* HouseTableViewCell.xib */; };
+		A463356A229F802E008F0DD9 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4633569229F802E008F0DD9 /* House.swift */; };
+		A463356D229FEA4F008F0DD9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463356C229FEA4F008F0DD9 /* Extensions.swift */; };
+		A463356F229FEA9C008F0DD9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A463356E229FEA9C008F0DD9 /* DetailViewController.swift */; };
 		A4707898229EE5030019389C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4707897229EE5030019389C /* AppDelegate.swift */; };
 		A470789A229EE5030019389C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4707899229EE5030019389C /* ViewController.swift */; };
 		A470789D229EE5030019389C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A470789B229EE5030019389C /* Main.storyboard */; };
@@ -15,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E41C3373DA544DDB9CF4976 /* Pods-Nestoria House Listing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nestoria House Listing.debug.xcconfig"; path = "Target Support Files/Pods-Nestoria House Listing/Pods-Nestoria House Listing.debug.xcconfig"; sourceTree = "<group>"; };
+		A463355F229F42C3008F0DD9 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		A4633561229F6CCC008F0DD9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A4633563229F735F008F0DD9 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		A4633565229F78A8008F0DD9 /* HouseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HouseTableViewCell.swift; path = "Nestoria House Listing/View/HouseTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		A4633566229F78A8008F0DD9 /* HouseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HouseTableViewCell.xib; path = "Nestoria House Listing/View/HouseTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		A4633569229F802E008F0DD9 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		A463356C229FEA4F008F0DD9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A463356E229FEA9C008F0DD9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A4707894229EE5030019389C /* Nestoria House Listing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nestoria House Listing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4707897229EE5030019389C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4707899229EE5030019389C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,8 @@
 		A470789E229EE5040019389C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47078A1229EE5040019389C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47078A3229EE5040019389C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A535988AA999CA569476E084 /* Pods_Nestoria_House_Listing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nestoria_House_Listing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B421AD84AEE036220A2AA4 /* Pods-Nestoria House Listing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nestoria House Listing.release.xcconfig"; path = "Target Support Files/Pods-Nestoria House Listing/Pods-Nestoria House Listing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C917FFC8726E5D11C67DE1 /* Pods_Nestoria_House_Listing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A463355C229F422D008F0DD9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4707899229EE5030019389C /* ViewController.swift */,
+				A463356E229FEA9C008F0DD9 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A463355D229F4235008F0DD9 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				A463356B229F8642008F0DD9 /* Utils */,
+				A4633569229F802E008F0DD9 /* House.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		A463355E229F4239008F0DD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4633566229F78A8008F0DD9 /* HouseTableViewCell.xib */,
+				A4633565229F78A8008F0DD9 /* HouseTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A463356B229F8642008F0DD9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A4633561229F6CCC008F0DD9 /* Constant.swift */,
+				A463355F229F42C3008F0DD9 /* ApiHelper.swift */,
+				A4633563229F735F008F0DD9 /* AppColor.swift */,
+				A463356C229FEA4F008F0DD9 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A470788B229EE5030019389C = {
 			isa = PBXGroup;
 			children = (
 				A4707896229EE5030019389C /* Nestoria House Listing */,
 				A4707895229EE5030019389C /* Products */,
+				E6C502C243C3E9B6D5B6E430 /* Pods */,
+				E64668F605962CA99289A318 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +116,32 @@
 			isa = PBXGroup;
 			children = (
 				A4707897229EE5030019389C /* AppDelegate.swift */,
-				A4707899229EE5030019389C /* ViewController.swift */,
+				A463355D229F4235008F0DD9 /* Modal */,
+				A463355E229F4239008F0DD9 /* View */,
+				A463355C229F422D008F0DD9 /* Controller */,
 				A470789B229EE5030019389C /* Main.storyboard */,
 				A470789E229EE5040019389C /* Assets.xcassets */,
 				A47078A0229EE5040019389C /* LaunchScreen.storyboard */,
 				A47078A3229EE5040019389C /* Info.plist */,
 			);
 			path = "Nestoria House Listing";
+			sourceTree = "<group>";
+		};
+		E64668F605962CA99289A318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A535988AA999CA569476E084 /* Pods_Nestoria_House_Listing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6C502C243C3E9B6D5B6E430 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E41C3373DA544DDB9CF4976 /* Pods-Nestoria House Listing.debug.xcconfig */,
+				F7B421AD84AEE036220A2AA4 /* Pods-Nestoria House Listing.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A47078A6229EE5040019389C /* Build configuration list for PBXNativeTarget "Nestoria House Listing" */;
 			buildPhases = (
+				7D0FA7419482C84E4CE0CF46 /* [CP] Check Pods Manifest.lock */,
 				A4707890229EE5030019389C /* Sources */,
 				A4707891229EE5030019389C /* Frameworks */,
 				A4707892229EE5030019389C /* Resources */,
+				426B88863341ADC76DE18B03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +206,69 @@
 			files = (
 				A47078A2229EE5040019389C /* LaunchScreen.storyboard in Resources */,
 				A470789F229EE5040019389C /* Assets.xcassets in Resources */,
+				A4633568229F78A8008F0DD9 /* HouseTableViewCell.xib in Resources */,
 				A470789D229EE5030019389C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		426B88863341ADC76DE18B03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nestoria House Listing/Pods-Nestoria House Listing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nestoria House Listing/Pods-Nestoria House Listing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nestoria House Listing/Pods-Nestoria House Listing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0FA7419482C84E4CE0CF46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nestoria House Listing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4707890229EE5030019389C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A463356F229FEA9C008F0DD9 /* DetailViewController.swift in Sources */,
+				A463356A229F802E008F0DD9 /* House.swift in Sources */,
 				A470789A229EE5030019389C /* ViewController.swift in Sources */,
+				A4633564229F735F008F0DD9 /* AppColor.swift in Sources */,
+				A463356D229FEA4F008F0DD9 /* Extensions.swift in Sources */,
 				A4707898229EE5030019389C /* AppDelegate.swift in Sources */,
+				A4633560229F42C3008F0DD9 /* ApiHelper.swift in Sources */,
+				A4633567229F78A8008F0DD9 /* HouseTableViewCell.swift in Sources */,
+				A4633562229F6CCC008F0DD9 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +412,13 @@
 		};
 		A47078A7229EE5040019389C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E41C3373DA544DDB9CF4976 /* Pods-Nestoria House Listing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V9L8PFAZ4;
 				INFOPLIST_FILE = "Nestoria House Listing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +432,13 @@
 		};
 		A47078A8229EE5040019389C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B421AD84AEE036220A2AA4 /* Pods-Nestoria House Listing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4V9L8PFAZ4;
 				INFOPLIST_FILE = "Nestoria House Listing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
